@@ -38,7 +38,7 @@ return (
               </div>
             <h3 className='mb-0 card-title white-space-nowrap overflow-hidden text-overflow-ellipsis'>{produto.title}</h3>
             <h6 className='mb-0 card-category uppercase text-orange-500 uppercase'>{produto.category}</h6>
-            <h2 className='mb-0 card-price'>${produto.price}</h2>
+            <h2 className='mb-0 card-price'>$ {produto.price}</h2>
           </li>
         ))}
       </ul>
